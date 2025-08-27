@@ -1,4 +1,4 @@
-# Mi-proyecto-coder
+# Mi-proyecto-coder Micro Machines
 
 Repo en el cuál voy a subi mi proyecto hecho para el Curso de Coder House
 
