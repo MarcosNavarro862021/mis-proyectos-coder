@@ -1,0 +1,306 @@
+/* ===== ESTILOS BOOTSTRAP MICRO MACHINES ===== */
+
+/* Variables CSS personalizadas para colores de marca */
+:root {
+  --mm-primary: #14abef;
+  --mm-secondary: #dcd603;
+  --mm-accent: #d11f8e;
+  --mm-dark: #000000;
+  --mm-light: #ffffff;
+  --mm-gray: #cccccc;
+}
+
+/* Estilos globales */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Sobrescritura de tipografía */
+h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  letter-spacing: -3px;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  margin-top: 0;
+}
+
+/* Sobrescritura de colores de Bootstrap */
+.bg-primary {
+  background-color: var(--mm-primary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--mm-accent) !important;
+}
+
+.bg-light {
+  background-color: var(--mm-gray) !important;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: var(--mm-primary);
+}
+
+#logo-top {
+  max-height: 80px;
+  width: auto;
+}
+
+/* Personalización de la barra de navegación */
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-toggler {
+  border: 2px solid var(--mm-light);
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+/* Estilos del menú de navegación */
+#menu-top .nav-link {
+  background-color: var(--mm-light);
+  color: var(--mm-dark) !important;
+  padding: 14px 30px;
+  border-bottom: 4px solid var(--mm-dark);
+  text-transform: uppercase;
+  min-width: 100px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin: 5px 0;
+}
+
+#menu-top .nav-link:hover,
+#menu-top .nav-link.active {
+  background-color: var(--mm-dark) !important;
+  color: var(--mm-light) !important;
+}
+
+/* Navegación en escritorio */
+@media (min-width: 992px) {
+  .navbar-brand {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  #menu-top {
+    margin-top: 20px;
+  }
+
+  .navbar-collapse {
+    margin-top: 10px;
+  }
+}
+
+/* Navegación en móvil */
+@media (max-width: 991.98px) {
+  .navbar-brand {
+    order: 1;
+    margin: 0 auto;
+  }
+
+  .navbar-toggler {
+    order: 2;
+    margin-left: auto;
+  }
+
+  .navbar-collapse {
+    order: 3;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #menu-top {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #menu-top .nav-item {
+    margin: 0 !important;
+    width: 100%;
+    max-width: 200px;
+  }
+
+  #menu-top .nav-link {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
+/* Estilos del contenido principal */
+main {
+  background-color: var(--mm-gray);
+}
+
+#main-content {
+  background-color: var(--mm-light);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Contenedor de video responsivo */
+.ratio {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Estilos de imágenes históricas */
+.historical-image {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid var(--mm-gray);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.historical-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-color: var(--mm-primary);
+}
+
+/* Estilos de grilla del catálogo */
+.mm-car-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mm-car-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.mm-car-item:hover .mm-car-image {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.8);
+  border: 3px solid var(--mm-light);
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: var(--mm-dark);
+}
+
+#logo-bottom {
+  max-height: 60px;
+  width: auto;
+}
+
+#menu-bottom .nav-link {
+  background-color: var(--mm-secondary);
+  color: var(--mm-dark) !important;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  min-width: 100px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+#menu-bottom .nav-link:hover {
+  background-color: var(--mm-accent) !important;
+  color: var(--mm-light) !important;
+}
+
+#footer-copyright {
+  background-color: var(--mm-accent);
+}
+
+#footer-copyright p {
+  color: var(--mm-light);
+  margin: 0;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+    letter-spacing: -2px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #menu-top .nav-link {
+    font-size: 16px;
+    padding: 12px 20px;
+    min-width: 80px;
+  }
+
+  #main-content {
+    padding: 20px;
+  }
+
+  .ratio {
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #menu-bottom {
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 0 !important;
+    margin-top: 20px;
+  }
+
+  #menu-and-logo-footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Utilidades personalizadas de Bootstrap */
+.rounded-4 {
+  border-radius: 20px !important;
+}
+
+/* Mejoras de accesibilidad */
+.nav-link:focus,
+.nav-link:focus-visible {
+  outline: 2px solid var(--mm-accent);
+  outline-offset: 2px;
+}
+
+/* Estilos para impresión */
+@media print {
+  header,
+  footer {
+    display: none;
+  }
+
+  main {
+    background: white !important;
+    padding: 0 !important;
+  }
+
+  #main-content {
+    box-shadow: none !important;
+    border: 1px solid #ccc;
+  }
+}

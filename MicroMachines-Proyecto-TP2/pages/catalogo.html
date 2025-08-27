@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Micro Machines - Proyecto Personal</title>
+    <!-- CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sección del encabezado -->
+    <header class="bg-primary">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark py-3">
+                <!-- Logo -->
+                <a class="navbar-brand mx-auto mx-lg-0" href="../index.html">
+                    <img id="logo-top" src="../images/logo.png" alt="Logo Micro Machines" class="img-fluid">
+                </a>
+                
+                <!-- Botón hamburguesa -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Menú desplegable -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav" id="menu-top">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-top" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-top" href="../pages/historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-top active" href="../pages/catalogo.html">Catálogo</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-top" href="../pages/identificacion.html">Identificación</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-top" href="../pages/videojuegos.html">Videojuegos</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="bg-light py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <section id="main-content" class="bg-white rounded-4 p-4 shadow-sm">
+                        <!-- Sección del título -->
+                        <section class="text-center mb-5" id="title">
+                            <h1 class="display-3 fw-medium">Catálogo</h1>
+                            <h2 class="h4 fw-light lh-sm">
+                                Series completas de Micro Machines por fabricante y año
+                            </h2>
+                        </section>
+                        
+                        <!-- Sección de galería de muestra -->
+                        <section class="mb-5">
+                            <h3 class="h4 text-center mb-4">Muestra de la Colección</h3>
+                            <div class="row g-3 justify-content-center" id="mm-cars-menu">
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                    <div class="mm-car-item">
+                                        <img class="mm-car-image img-fluid rounded-3" 
+                                             src="../images/cars/micro-1.jpg" 
+                                             alt="Muestra Micro Machine 1">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                    <div class="mm-car-item">
+                                        <img class="mm-car-image img-fluid rounded-3" 
+                                             src="../images/cars/micro-2.jpg" 
+                                             alt="Muestra Micro Machine 2">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                    <div class="mm-car-item">
+                                        <img class="mm-car-image img-fluid rounded-3" 
+                                             src="../images/cars/micro-3.jpg" 
+                                             alt="Muestra Micro Machine 3">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                    <div class="mm-car-item">
+                                        <img class="mm-car-image img-fluid rounded-3" 
+                                             src="../images/cars/micro-4.jpg" 
+                                             alt="Muestra Micro Machine 4">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                    <div class="mm-car-item">
+                                        <img class="mm-car-image img-fluid rounded-3" 
+                                             src="../images/cars/micro-5.jpg" 
+                                             alt="Muestra Micro Machine 5">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                                    <div class="mm-car-item">
+                                        <img class="mm-car-image img-fluid rounded-3" 
+                                             src="../images/cars/micro-6.jpg" 
+                                             alt="Muestra Micro Machine 6">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Catálogo completo de series -->
+                        <section class="series-catalog">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10">
+                                    
+                                    <!-- Era GALOOB (1987-1998) -->
+                                    <div class="card mb-5 border-primary">
+                                        <div class="card-header bg-primary text-white">
+                                            <h3 class="h4 mb-0">🏭 GALOOB (1987-1998) - La Era Dorada</h3>
+                                        </div>
+                                        <div class="card-body">
+                                            
+                                            <!-- Series clásicas -->
+                                            <div class="mb-4">
+                                                <h4 class="h5 text-primary mb-3">Series Clásicas (1987-1992)</h4>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item"><strong>Original Collection #1-#75</strong> (1987-1989)</li>
+                                                            <li class="list-group-item"><strong>Sports Cars</strong> - Ferrari, Lamborghini, Porsche</li>
+                                                            <li class="list-group-item"><strong>Emergency Vehicles</strong> - Ambulancias, bomberos, policía</li>
+                                                            <li class="list-group-item"><strong>Construction</strong> - Bulldozers, grúas, camiones</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item"><strong>Military</strong> - Tanques, jeeps, helicópteros</li>
+                                                            <li class="list-group-item"><strong>Off Road</strong> - 4x4, motos, ATVs</li>
+                                                            <li class="list-group-item"><strong>Boats & Planes</strong> - Lanchas, aviones, jets</li>
+                                                            <li class="list-group-item"><strong>Motorcycles</strong> - Harley, Kawasaki, Honda</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Series temáticas -->
+                                            <div class="mb-4">
+                                                <h4 class="h5 text-success mb-3">Series Temáticas (1990-1995)</h4>
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <h6><strong>Licencias de Películas:</strong></h6>
+                                                        <ul>
+                                                            <li>Star Wars (1993-1994)</li>
+                                                            <li>Aliens (1992)</li>
+                                                            <li>James Bond 007 (1994)</li>
+                                                            <li>Terminator 2 (1991)</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <h6><strong>Series Deportivas:</strong></h6>
+                                                        <ul>
+                                                            <li>NASCAR Racing (1991-1993)</li>
+                                                            <li>Formula 1 (1992)</li>
+                                                            <li>Indy 500 (1993)</li>
+                                                            <li>Drag Racing (1994)</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <h6><strong>Series Especiales:</strong></h6>
+                                                        <ul>
+                                                            <li>Gold Collection (1995)</li>
+                                                            <li>Chrome Collection (1994)</li>
+                                                            <li>Glow in the Dark (1993)</li>
+                                                            <li>Color Changers (1995)</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Sets de juego -->
+                                            <div class="mb-4">
+                                                <h4 class="h5 text-warning mb-3">Playsets y Sets Especiales (1988-1998)</h4>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <h6><strong>Super Van City:</strong></h6>
+                                                        <ul>
+                                                            <li>Tool Box Speedway (1989)</li>
+                                                            <li>Fold-Out Garage (1990)</li>
+                                                            <li>Super Speedway (1991)</li>
+                                                            <li>Construction Site (1992)</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <h6><strong>Hiways & Byways:</strong></h6>
+                                                        <ul>
+                                                            <li>Travel City (1993)</li>
+                                                            <li>Auto World (1994)</li>
+                                                            <li>Big Rig City (1995)</li>
+                                                            <li>Emergency Rescue (1996)</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Insiders transformables -->
+                                            <div>
+                                                <h4 class="h5 text-info mb-3">Insiders - Transformables (1989-1997)</h4>
+                                                <div class="alert alert-info">
+                                                    <strong>Concepto único:</strong> Vehículos que se transformaban en playsets completos
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <ul>
+                                                            <li>Toolbox Speedway</li>
+                                                            <li>Fold-Out Garage</li>
+                                                            <li>Super Speedway</li>
+                                                            <li>Construction Site</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <ul>
+                                                            <li>Fire Station</li>
+                                                            <li>Police Station</li>
+                                                            <li>Airport</li>
+                                                            <li>Gas Station</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <ul>
+                                                            <li>Military Base</li>
+                                                            <li>Space Station</li>
+                                                            <li>Pirate Ship</li>
+                                                            <li>Castle</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Era HASBRO (1998-2006) -->
+                                    <div class="card mb-5 border-success">
+                                        <div class="card-header bg-success text-white">
+                                            <h3 class="h4 mb-0">🏢 HASBRO (1998-2006) - Transición y Modernización</h3>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="alert alert-warning">
+                                                <strong>Nota:</strong> Tras la adquisición de Galoob, Hasbro continuó algunas líneas pero con menor intensidad.
+                                            </div>
+                                            
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <h5>Series Continuadas (1998-2002):</h5>
+                                                    <ul>
+                                                        <li><strong>Classic Collection</strong> - Reediciones de favoritos</li>
+                                                        <li><strong>Star Wars Episode I</strong> (1999)</li>
+                                                        <li><strong>Military Finest</strong> - Versiones mejoradas</li>
+                                                        <li><strong>Sports Collection</strong> - Nuevos equipos</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <h5>Nuevas Iniciativas (2000-2006):</h5>
+                                                    <ul>
+                                                        <li><strong>Micro Machines Minis</strong> - Escala aún menor</li>
+                                                        <li><strong>Playsets Compactos</strong> - Versiones simplificadas</li>
+                                                        <li><strong>Collector's Edition</strong> - Para adultos nostálgicos</li>
+                                                        <li><strong>Digital Integration</strong> - Códigos para videojuegos</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Otras marcas y reediciones -->
+                                    <div class="card mb-5 border-secondary">
+                                        <div class="card-header bg-secondary text-white">
+                                            <h3 class="h4 mb-0">🔄 Otras Marcas y Reediciones (2007-Presente)</h3>
+                                        </div>
+                                        <div class="card-body">
+                                            
+                                            <div class="mb-4">
+                                                <h5 class="text-primary">Jazwares (2020-Presente):</h5>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <ul>
+                                                            <li><strong>Micro Machines Retro Series</strong> (2020)</li>
+                                                            <li><strong>Blind Box Collections</strong> (2021)</li>
+                                                            <li><strong>Super Van City Revival</strong> (2022)</li>
+                                                            <li><strong>Movie Cars Collection</strong> (2023)</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <ul>
+                                                            <li><strong>World Famous Cars</strong> (2021)</li>
+                                                            <li><strong>Adventure Series</strong> (2022)</li>
+                                                            <li><strong>Collector's Tin Sets</strong> (2023)</li>
+                                                            <li><strong>Limited Editions</strong> (2024)</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="mb-4">
+                                                <h5 class="text-success">Fabricantes Independientes:</h5>
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <h6><strong>LGT (China):</strong></h6>
+                                                        <ul>
+                                                            <li>Réplicas no oficiales</li>
+                                                            <li>Calidad variable</li>
+                                                            <li>Precios accesibles</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <h6><strong>Majorette:</strong></h6>
+                                                        <ul>
+                                                            <li>Serie "Nano Cars"</li>
+                                                            <li>Escala similar</li>
+                                                            <li>Distribución europea</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <h6><strong>Otros:</strong></h6>
+                                                        <ul>
+                                                            <li>Tomica (Japón)</li>
+                                                            <li>Siku (Alemania)</li>
+                                                            <li>Maisto Fresh Metal</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="alert alert-info">
+                                                <h5 class="alert-heading">💡 Para Coleccionistas:</h5>
+                                                <ul class="mb-0">
+                                                    <li><strong>Más valiosos:</strong> Series originales de Galoob (1987-1992)</li>
+                                                    <li><strong>Más raros:</strong> Prototipos, ediciones limitadas y errores de fábrica</li>
+                                                    <li><strong>Más buscados:</strong> Star Wars, James Bond y sets completos en blister</li>
+                                                    <li><strong>Mejor inversión:</strong> Insiders en caja original y playsets completos</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="bg-dark">
+        <div class="container py-4">
+            <div class="row justify-content-center align-items-center" id="menu-and-logo-footer">
+                <div class="col-auto">
+                    <img id="logo-bottom" src="../images/logo.png" alt="Logo Micro Machines" class="img-fluid">
+                </div>
+                <div class="col-auto">
+                    <ul class="nav" id="menu-bottom">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-bot" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-bot" href="../pages/historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-bot" href="../pages/catalogo.html">Catálogo</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-bot" href="../pages/identificacion.html">Identificación</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-bot" href="../pages/videojuegos.html">Videojuegos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Sección de derechos de autor -->
+        <div class="bg-secondary text-center py-3" id="footer-copyright">
+            <p class="mb-0 text-white">© 2025 Marcos Navarro. Diseñado por Marcos Navarro.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
