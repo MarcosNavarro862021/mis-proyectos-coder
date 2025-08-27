@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videojuegos - Micro Machines - Proyecto Personal</title>
+    <!-- CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sección del encabezado -->
+    <header class="bg-primary">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark py-3">
+                <!-- Logo -->
+                <a class="navbar-brand mx-auto mx-lg-0" href="../index.html">
+                    <img id="logo-top" src="../images/logo.png" alt="Logo Micro Machines" class="img-fluid">
+                </a>
+                
+                <!-- Botón hamburguesa -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Menú desplegable -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav" id="menu-top">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-top" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-top" href="../pages/historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-top" href="../pages/catalogo.html">Catálogo</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-top" href="../pages/identificacion.html">Identificación</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-top active" href="../pages/videojuegos.html">Videojuegos</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="bg-light py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <section id="main-content" class="bg-white rounded-4 p-4 shadow-sm">
+                        <!-- Sección del título -->
+                        <section class="text-center mb-5" id="title">
+                            <h1 class="display-3 fw-medium">Videojuegos</h1>
+                            <h2 class="h4 fw-light lh-sm">
+                                La saga completa de videojuegos Micro Machines
+                            </h2>
+                        </section>
+                        
+                        <!-- Contenido de videojuegos -->
+                        <section class="videojuegos-content">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-9">
+                                    <p class="lead mb-5">
+                                        Los Micro Machines no solo conquistaron las estanterías de juguetes, sino también 
+                                        el mundo de los videojuegos. Codemasters creó una saga legendaria que capturó 
+                                        perfectamente la esencia de estos pequeños vehículos.
+                                    </p>
+
+                                    <!-- Cronología de juegos -->
+                                    <div class="timeline">
+                                        <!-- Micro Machines (1991) -->
+                                        <div class="card mb-4 border-primary">
+                                            <div class="card-header bg-primary text-white">
+                                                <div class="row align-items-center">
+                                                    <div class="col">
+                                                        <h3 class="h5 mb-0">🎮 Micro Machines (1991)</h3>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span class="badge bg-light text-dark">NES, Game Boy</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <p><strong>El comienzo de la leyenda.</strong> Codemasters lanzó el primer juego oficial de Micro Machines para NES y Game Boy.</p>
+                                                <ul>
+                                                    <li>Vista cenital clásica</li>
+                                                    <li>8 circuitos únicos en entornos domésticos</li>
+                                                    <li>Multijugador para hasta 4 jugadores</li>
+                                                    <li>Vehículos inspirados en los juguetes reales</li>
+                                                </ul>
+                                                <div class="alert alert-info">
+                                                    <strong>Curiosidad:</strong> Fue uno de los primeros juegos en usar el adaptador de 4 jugadores de NES.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Micro Machines 2: Turbo Tournament (1994) -->
+                                        <div class="card mb-4 border-success">
+                                            <div class="card-header bg-success text-white">
+                                                <div class="row align-items-center">
+                                                    <div class="col">
+                                                        <h3 class="h5 mb-0">🏆 Micro Machines 2: Turbo Tournament (1994)</h3>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span class="badge bg-light text-dark">Mega Drive, Game Gear</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <p><strong>La secuela que definió el género.</strong> Considerado por muchos como el mejor de la saga.</p>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <h5>Nuevas características:</h5>
+                                                        <ul>
+                                                            <li>Modo Challenge con 99 desafíos</li>
+                                                            <li>Editor de circuitos</li>
+                                                            <li>Más tipos de vehículos</li>
+                                                            <li>Gráficos mejorados</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <h5>Circuitos memorables:</h5>
+                                                        <ul>
+                                                            <li>Mesa de billar</li>
+                                                            <li>Taller mecánico</li>
+                                                            <li>Jardín con obstáculos</li>
+                                                            <li>Baño con agua</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Micro Machines Military (1996) -->
+                                        <div class="card mb-4 border-warning">
+                                            <div class="card-header bg-warning text-dark">
+                                                <div class="row align-items-center">
+                                                    <div class="col">
+                                                        <h3 class="h5 mb-0">⚔️ Micro Machines Military (1996)</h3>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span class="badge bg-dark text-light">Mega Drive, PC</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <p><strong>Enfoque temático militar.</strong> Una variación que se centró exclusivamente en vehículos militares.</p>
+                                                <ul>
+                                                    <li>Tanques, helicópteros y vehículos de combate</li>
+                                                    <li>Circuitos ambientados en zonas de guerra</li>
+                                                    <li>Modo campaña con misiones</li>
+                                                    <li>Armas y power-ups especiales</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <!-- Micro Machines V3 (1997) -->
+                                        <div class="card mb-4 border-info">
+                                            <div class="card-header bg-info text-white">
+                                                <div class="row align-items-center">
+                                                    <div class="col">
+                                                        <h3 class="h5 mb-0">🚗 Micro Machines V3 (1997)</h3>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span class="badge bg-light text-dark">PlayStation, PC</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <p><strong>El salto a la nueva generación.</strong> Aprovechó las capacidades de PlayStation para ofrecer gráficos 3D.</p>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <h5>Innovaciones técnicas:</h5>
+                                                        <ul>
+                                                            <li>Gráficos 3D mejorados</li>
+                                                            <li>Física más realista</li>
+                                                            <li>Efectos de sonido envolventes</li>
+                                                            <li>Animaciones fluidas</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <h5>Contenido expandido:</h5>
+                                                        <ul>
+                                                            <li>Más de 30 circuitos</li>
+                                                            <li>Nuevos modos de juego</li>
+                                                            <li>Multijugador mejorado</li>
+                                                            <li>Vehículos personalizables</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Micro Machines V4 (2006) -->
+                                        <div class="card mb-4 border-secondary">
+                                            <div class="card-header bg-secondary text-white">
+                                                <div class="row align-items-center">
+                                                    <div class="col">
+                                                        <h3 class="h5 mb-0">🎯 Micro Machines V4 (2006)</h3>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span class="badge bg-light text-dark">PS2, Xbox, PC, PSP</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <p><strong>El regreso después de años.</strong> Codemasters revivió la saga con tecnología moderna.</p>
+                                                <ul>
+                                                    <li>Gráficos completamente renovados</li>
+                                                    <li>Nuevos modos como "King of the Hill"</li>
+                                                    <li>Multijugador online (PC)</li>
+                                                    <li>Más de 750 desafíos</li>
+                                                    <li>Vehículos de diferentes categorías</li>
+                                                </ul>
+                                                <div class="alert alert-warning">
+                                                    <strong>Nota:</strong> Aunque técnicamente superior, algunos fans consideran que perdió parte del encanto de los primeros juegos.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Micro Machines World Series (2017) -->
+                                        <div class="card mb-4 border-danger">
+                                            <div class="card-header bg-danger text-white">
+                                                <div class="row align-items-center">
+                                                    <div class="col">
+                                                        <h3 class="h5 mb-0">🌍 Micro Machines World Series (2017)</h3>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span class="badge bg-light text-dark">PS4, Xbox One, PC</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <p><strong>La entrada más reciente.</strong> Codemasters intentó modernizar la fórmula para una nueva generación.</p>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <h5>Características modernas:</h5>
+                                                        <ul>
+                                                            <li>Multijugador online hasta 12 jugadores</li>
+                                                            <li>Gráficos HD actualizados</li>
+                                                            <li>Nuevos modos de batalla</li>
+                                                            <li>Personalización de vehículos</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <h5>Recepción mixta:</h5>
+                                                        <ul>
+                                                            <li>Críticas por falta de contenido</li>
+                                                            <li>Problemas de conectividad online</li>
+                                                            <li>Nostalgia por los clásicos</li>
+                                                            <li>Precio considerado alto</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Legado e impacto -->
+                                    <div class="card mt-5 border-dark">
+                                        <div class="card-header bg-dark text-white">
+                                            <h3 class="h5 mb-0">🏅 Legado e Impacto</h3>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <h5>Influencia en el género:</h5>
+                                                    <ul>
+                                                        <li>Pioneros en carreras con vista cenital</li>
+                                                        <li>Multijugador local innovador</li>
+                                                        <li>Diseño de circuitos creativos</li>
+                                                        <li>Física arcade perfecta</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <h5>Reconocimientos:</h5>
+                                                    <ul>
+                                                        <li>Múltiples premios de la industria</li>
+                                                        <li>Ventas millonarias mundiales</li>
+                                                        <li>Culto de seguidores dedicados</li>
+                                                        <li>Inspiración para juegos modernos</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="alert alert-success mt-3">
+                                                <h5 class="alert-heading">🎮 ¿Sabías que...?</h5>
+                                                <ul class="mb-0">
+                                                    <li>Micro Machines 2 vendió más de 1.5 millones de copias</li>
+                                                    <li>La saga inspiró el concepto de "party racing games"</li>
+                                                    <li>Los circuitos domésticos se convirtieron en un estándar del género</li>
+                                                    <li>Codemasters siguió usando elementos de MM en otros juegos</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="bg-dark">
+        <div class="container py-4">
+            <div class="row justify-content-center align-items-center" id="menu-and-logo-footer">
+                <div class="col-auto">
+                    <img id="logo-bottom" src="../images/logo.png" alt="Logo Micro Machines" class="img-fluid">
+                </div>
+                <div class="col-auto">
+                    <ul class="nav" id="menu-bottom">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-bot" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-bot" href="../pages/historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-bot" href="../pages/catalogo.html">Catálogo</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-bot" href="../pages/identificacion.html">Identificación</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link menu-mm-bot" href="../pages/videojuegos.html">Videojuegos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Sección de derechos de autor -->
+        <div class="bg-secondary text-center py-3" id="footer-copyright">
+            <p class="mb-0 text-white">© 2025 Marcos Navarro. Diseñado por Marcos Navarro.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
