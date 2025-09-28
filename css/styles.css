@@ -301,6 +301,20 @@ footer {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
+.typing-animation {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2.5s steps(15, end);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
 @media (max-width: 768px) {
   .card:hover,
   .mm-car-item:hover .mm-car-image {
