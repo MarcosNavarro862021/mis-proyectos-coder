@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://marcosnavarro862021.github.io/mis-proyectos-coder/sitemap.xml
+
+# Disallow specific files
+Disallow: /css/styles.scss
+Disallow: /.git/
+Disallow: /README.md
