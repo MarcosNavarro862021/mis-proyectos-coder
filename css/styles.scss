@@ -470,6 +470,24 @@ footer {
   }
 }
 
+// Animación de typing para el título (sin cursor)
+.typing-animation {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2.5s steps(15, end);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
+
 // ===== RESPONSIVE DESIGN - Performance en mobile =====
 
 // Reducir animaciones en dispositivos móviles para mejor performance

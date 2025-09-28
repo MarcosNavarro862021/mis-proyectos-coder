@@ -1,0 +1,1 @@
+/* Placeholder para cuando aprenda JS en el curso */
